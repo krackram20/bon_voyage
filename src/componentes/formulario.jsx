@@ -90,7 +90,7 @@ const Formulario = () => {
           />
         </div>
         <div>
-          <button className={classes.boton__subir}>Submit Contact</button>
+          <button className={classes.boton__subir}>Enviar</button>
         </div>
       </form>
       <Popup open={lightbox} 

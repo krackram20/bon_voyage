@@ -61,7 +61,7 @@ const Formulario = () => {
             name="email"
             placeholder="Email"
             value={Info.email}
-            pattern="[A-Za-z0-9._+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
+            pattern="[^()/><\][\\\x22,;|]+"
             title="No se permiten caracteres especiales"
             required
           />
